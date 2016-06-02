@@ -1,8 +1,8 @@
 \\\Slide Nav - whole pages !!!///
-----dont forger to uncomment-----
+
     \\\\\\HTML markup//////
 
-  <!--  Slide nav markup 
+  
     <nav>
         <a href="#page1"><span>Page 1</span></a>
         <a href="#page2"><span>Page 2</span></a>
@@ -19,12 +19,12 @@
             <h1>Page 3</h1>
         </article>
     </main>
-    Slide nav markup -->
+    
 
 
     \\\\\\CSS styling//////
     
-    /** Slide nav 100% pages
+    
 html,body {
     display: block;
     background: #000;
@@ -81,5 +81,4 @@ h1 {
     margin-top: 25%;
 }
 
- Slide nav 100% pages end **/
     
