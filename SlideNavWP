@@ -1,0 +1,85 @@
+\\\Slide Nav - whole pages !!!///
+----dont forger to uncomment-----
+    \\\\\\HTML markup//////
+
+  <!--  Slide nav markup 
+    <nav>
+        <a href="#page1"><span>Page 1</span></a>
+        <a href="#page2"><span>Page 2</span></a>
+        <a href="#page3"><span>Page 3</span></a>
+    </nav>
+    <main>
+        <article id="page1">
+            <h1>Ligtbox</h1>
+        </article>
+        <article id="page2">
+            <h1>Page 2</h1>
+        </article>
+        <article id="page3">
+            <h1>Page 3</h1>
+        </article>
+    </main>
+    Slide nav markup -->
+
+
+    \\\\\\CSS styling//////
+    
+    /** Slide nav 100% pages
+html,body {
+    display: block;
+    background: #000;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: monospace, sans-serif;
+    height: 100%;
+}
+
+#main {
+    display: block;
+    width: 75%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    padding: 1em;
+    overflow: hidden;
+}
+
+article {
+    position: absolute;
+    display: block;
+    width: 75%;
+    height: 100%;
+    top: -100%;
+    opacity: 0;
+    background-color: orange;
+    border: 0;
+    transition: top 1s, opacity 1s, border 1s;
+    overflow: auto;
+}
+
+article:target {
+    opacity: 1;
+    top: 0;
+    border: 5px solid #fff;
+    background-color: #000;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+nav a{
+    display: block;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25%;
+}
+
+ Slide nav 100% pages end **/
+    
